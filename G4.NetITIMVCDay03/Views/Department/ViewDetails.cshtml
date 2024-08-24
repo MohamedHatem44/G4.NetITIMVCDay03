@@ -1,0 +1,11 @@
+﻿@{
+    var _Department = ViewBag.Department;
+}
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">Department Name: @_Department.DeptName</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Department Id: @_Department.Id</h6>
+        <a href="~/Department/Index" class="card-link">Back</a>
+    </div>
+</div>
